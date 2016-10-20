@@ -3,7 +3,7 @@ title: 听说你想用ViewPager实现这样的效果？
 date: 2016-10-18 12:48:30
 tags: android
 ---
-> **效果图**
+### 效果图
 
 ![ViewPager实现多个View](http://upload-images.jianshu.io/upload_images/291600-4a2d2176f95be5a5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -11,7 +11,7 @@ tags: android
 ![此图盗于https://github.com/smallnew/FuCardPager](http://upload-images.jianshu.io/upload_images/291600-86d59532cd37f25c.gif?imageMogr2/auto-orient/strip)
 
 
-> **代码实现**
+### 代码实现
 
 实现效果有两种：
 
@@ -71,7 +71,7 @@ viewPager.setPageMargin(xxx);
 
 **注意一下**：PAGE_MARGIN的间距要***小于*** VIEW_PAGER_MARGIN的间距才可以实现一屏多View的效果。
 
-> **实现居中**
+### 实现居中
 
 有的时候，我们为了好看，想要将我们的item实现居中。实现居中的方法很灵活，这里说一个比较接地气的方法：
 
